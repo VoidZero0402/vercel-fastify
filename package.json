@@ -3,13 +3,15 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "start": "node server.js"
+        "start": "node src/index.js"
     },
     "keywords": [],
     "author": "OverNext",
     "license": "MIT",
     "description": "",
     "dependencies": {
-        "fastify": "^5.3.3"
+        "dotenv": "^16.5.0",
+        "fastify": "^5.3.3",
+        "mongoose": "^8.15.0"
     }
 }
